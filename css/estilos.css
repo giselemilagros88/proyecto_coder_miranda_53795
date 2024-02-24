@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+.bgHeader{
+    background-color: #111111;
+}
+.navbar-dark .navbar-nav .nav-link.colorRosa{
+    color: #ef92ef;
+}
+
+.tarjeta{
+    width:500px;
+}
+
+/*main de la pagina contacto*/
+.imgFondo{
+    background-image:url("../assets/img/imagen_contacto.webp") ;
+    height: 281px;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-control{
+    padding:15px 10px 15px 10px;
+}
+
+.bgBoton{
+    color: #fff;
+    background-color: #040404;
+    border-color: #070707;
+    border-radius:25px;
+    &:hover{
+        background-color: #000000;
+        border-color: #000000;
+    }
+}
+.iconos{
+    text-decoration: none;
+    
+    .fa-whatsapp, .fa-instagram{
+        font-size:5rem;
+        margin-right: 20px;
+    }
+    .fa-whatsapp{
+        color: #25d366;
+    }
+    .fa-instagram{
+        color: #e4405f;
+    }
+}
+
+@media screen and (max-width:768px){
+
+
+    footer{
+        section{
+            border-bottom: 2px solid white;
+        }
+    }
+
+}
